@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @Component
 public class UserService {
-    UserDao userDao;
+    private UserDao userDao;
 
     public UserService(UserDao userDao) {
         this.userDao = userDao;
